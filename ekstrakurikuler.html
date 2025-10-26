@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Club — SMP Athalia</title>
+
+  <style>
+  :root {
+    --blue: #003366;
+    --green: #2e8b57;
+    --gold: #ffd700;
+    --muted: #f7f9fc;
+    --radius: 10px;
+    --maxw: 960px;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background: var(--muted);
+    color: #222;
+  }
+
+  header {
+    background: linear-gradient(120deg, var(--blue), var(--green));
+    color: white;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: var(--gold);
+  }
+
+  nav a.active {
+    color: var(--gold);
+    text-decoration: underline;
+  }
+
+  .content {
+    max-width: var(--maxw);
+    margin: 40px auto;
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    animation: fadeInUp 0.8s ease forwards;
+  }
+
+  .content h2 {
+    color: var(--blue);
+    font-family: "Poppins", sans-serif;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .content h3 {
+    color: var(--green);
+    margin-top: 28px;
+  }
+
+  .content p {
+    line-height: 1.7;
+    font-size: 16px;
+    margin: 12px 0;
+    text-align: justify;
+  }
+
+  ul {
+    line-height: 1.7;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .btn {
+    background: var(--green);
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: var(--blue);
+    transform: translateY(-2px);
+  }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  footer {
+    background: var(--blue);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>SMP Athalia</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="visi-misi.html">Visi & Misi</a>
+      <a href="sejarah.html">Sejarah</a>
+      <a href="ekstrakurikuler.html" class="active">Smart Club</a>
+      <a href="prestasi.html">Prestasi</a>
+      <a href="guru.html">Guru</a>
+      <a href="kontak.html">Info & Kontak</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Smart Club</h2>
+
+    <p>
+      Sejalan dengan penggunaan pendekatan <strong>Multiple Intelligences</strong> di Sekolah Athalia, maka selain beberapa
+      ekstrakurikuler wajib yang telah dijalankan di Sekolah Dasar Athalia (Pramuka, Bahasa Mandarin, dan Musik),
+      kami mengadakan beberapa <strong>Smart Club pilihan</strong> (tidak bersifat wajib) untuk siswa SD, SMP, dan SMA Athalia.
+    </p>
+
+    <p>
+      Smart Club ini bertujuan mengembangkan kecerdasan tertentu yang telah dimiliki siswa bersangkutan.
+      Audisi/seleksi akan dilakukan untuk membantu siswa mengenali kecerdasan mereka,
+      dan mengarahkan mereka untuk mengembangkan kecerdasan yang sesuai.
+      Smart Club yang telah berjalan di Sekolah Athalia:
+    </p>
+
+    <h3>Sport Club</h3>
+    <ul>
+      <li>Meliputi Volleyball Club, Futsal Club, Basketball Club, Tenis Meja, dan Catur.</li>
+      <li>Sport Club ini diadakan untuk mengembangkan kecerdasan kinestetik, logika, dan interpersonal siswa.</li>
+    </ul>
+
+    <h3>Concert Band</h3>
+    <p>
+      Tujuan dari Smart Club ini adalah melatih kesabaran, ketekunan, dan kegigihan.
+      Mengasah musikalitas, melatih kekompakan, serta mengembangkan apresiasi terhadap estetika.
+    </p>
+
+    <h3>Brass Band</h3>
+    <p>
+      Kegiatan ini bertujuan mengembangkan kemampuan bermusik siswa secara berkelompok,
+      melalui permainan alat musik tiup dan perkusi.
+      Adapun alat musik yang dipelajari di Smart Club Brass Band adalah Saxophone Alto dan Tenor,
+      Bariton Horn, Trompet, Trombon Slide, French Horn, Klarinet, Flute, dan Drum Set.
+    </p>
+
+    <h3>Fotografi</h3>
+    <p>
+      Kegiatan ini diselenggarakan untuk mewadahi kreativitas siswa dalam mengekspresikan
+      dan mengkomunikasikan pemikiran mereka tentang kehidupan dan lingkungan.
+      Klub fotografi juga menjadi tempat melatih siswa untuk memiliki kesabaran, ketelitian,
+      kreativitas, serta apresiasi terhadap seni dan ciptaan Tuhan.
+    </p>
+
+    <h3>Tari</h3>
+    <p>
+      Kegiatan ini bertujuan melatih kecerdasan kinestetik siswa,
+      memupuk kecintaan terhadap budaya bangsa, serta melestarikan dan mengembangkannya.
+    </p>
+
+    <h3>Tata Boga</h3>
+    <p>
+      Melatih keterampilan siswa dalam mengolah makanan dan mengembangkan kreativitas kuliner.
+    </p>
+
+    <h3>Clay Art</h3>
+    <p>
+      Membuat miniatur barang di sekitar kita, melatih pengendalian emosi,
+      konsentrasi tinggi, serta menumbuhkan ekspresi diri melalui seni.
+    </p>
+
+    <h3>Science Experiment</h3>
+    <p>
+      Sistem belajar dengan cara yang fun dan <em>no books, games only</em>,
+      yaitu belajar melalui permainan dan peragaan percobaan sains.
+    </p>
+
+    <h3>Handicraft</h3>
+    <p>
+      Melatih kreativitas dan keterampilan siswa melalui pembuatan produk-produk kerajinan tangan.
+    </p>
+
+    <div class="button-container">
+      <a href="sejarah.html" class="btn">← Sebelumnya</a>
+      <a href="prestasi.html" class="btn">Selanjutnya →</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 SMP Athalia — “Right From The Start”
+  </footer>
+</body>
+</html>

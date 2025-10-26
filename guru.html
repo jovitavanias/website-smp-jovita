@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guru — SMP Athalia</title>
+  <style>
+    :root {
+      --blue: #003366;
+      --green: #2e8b57;
+      --gold: #ffd700;
+      --muted: #f7f9fc;
+      --radius: 10px;
+      --maxw: 960px;
+    }
+
+    body {
+      font-family: "Lato", sans-serif;
+      margin: 0;
+      background: var(--muted);
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(120deg, var(--blue), var(--green));
+      color: white;
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: 0.5px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 16px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
+    nav a.active {
+      color: var(--gold);
+      text-decoration: underline;
+    }
+
+    .content {
+      max-width: var(--maxw);
+      margin: 40px auto;
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      padding: 40px;
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    .content h2 {
+      color: var(--blue);
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .content p {
+      text-align: center;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h3 {
+      color: var(--green);
+      border-left: 5px solid var(--gold);
+      padding-left: 10px;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      padding: 5px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    .btn {
+      background: var(--green);
+      color: white;
+      padding: 10px 22px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: var(--blue);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background: var(--blue);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SMP Athalia</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="visi-misi.html">Visi & Misi</a>
+      <a href="sejarah.html">Sejarah</a>
+      <a href="ekstrakurikuler.html">Smart Club</a>
+      <a href="prestasi.html">Prestasi</a>
+      <a href="guru.html" class="active">Guru</a>
+      <a href="kontak.html">Info & Kontak</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Guru SMP Athalia</h2>
+    <p>Para pendidik dan staf yang berkomitmen membimbing siswa dengan kasih, profesionalitas, dan semangat untuk membangun generasi yang benar sejak awal.</p>
+
+    <div class="section">
+      <h3>Kepala Sekolah & Wakil Kepala Sekolah</h3>
+      <ul>
+        <li>Anita Octavia — Kepala Sekolah</li>
+        <li>Beryl Sadewa — Wakil Kepala Sekolah / Guru IPA</li>
+	<li>Yosita Erlin P. — Wakil Kepala Sekolah / Guru IPA</li>
+         <li>Noverman S. Gea — Wakil Kepala Sekolah / Guru Seni Musik</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Guru Mata Pelajaran</h3>
+      <ul>
+        <li>Yosita Erlin P. — IPA</li>
+        <li>Yulius Andy Saputro — IPA</li>
+        <li>Yemima Ardyawati — Prakarya</li>
+        <li>Eryance Berlin P. — Matematika</li>
+        <li>Dinda Lianisari S. — PPKn</li>
+        <li>Evi Yuni Purba — Bahasa Indonesia</li>
+        <li>Jefry Rombe Lator — Bahasa Indonesia</li>
+        <li>Jusuf — Bahasa Inggris</li>
+        <li>Damaris Singgih I. — IPS</li>
+        <li>Defvi K. Wijaya — Seni Lukis</li>
+        <li>Rairi Victor — Seni Musik</li>
+        <li>Noverman S. Gea — Seni Musik</li>
+        <li>Silvia Anne — Vokal & Tari</li>
+        <li>Trias Andanty — TIK</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Konselor</h3>
+      <ul>
+        <li>Anita Latifia</li>
+        <li>Fanuel Renaldy</li>
+        <li>Felicia</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Pustakawan</h3>
+      <ul>
+        <li>Mega Br. D.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Tata Usaha</h3>
+      <ul>
+        <li>Rachni Landa</li>
+        <li>Marina Sri Adiati</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Penjasorkes</h3>
+      <ul>
+        <li>Alm. Bowo Lestoro</li>
+        <li>Destriani — Penjasorkes Kelas 7</li>
+        <li>Agus Riyanto — Penjasorkes Kelas 8</li>
+        <li>Ervin Rianto — Penjasorkes Kelas 9</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Office Boy</h3>
+      <ul>
+        <li>Yohanes Irawan</li>
+        <li>Daud</li>
+      </ul>
+    </div>
+
+    <div class="button-container">
+      <a href="prestasi.html" class="btn">← Sebelumnya</a>
+      <a href="kontak.html" class="btn">Selanjutnya →</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 SMP Athalia — “Right From The Start”
+  </footer>
+</body>
+</html>

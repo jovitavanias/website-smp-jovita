@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visi & Misi — SMP Athalia</title>
+
+  <style>
+  :root {
+    --blue: #003366;
+    --green: #2e8b57;
+    --gold: #ffd700;
+    --muted: #f7f9fc;
+    --radius: 10px;
+    --maxw: 960px;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background: var(--muted);
+    color: #222;
+  }
+
+  header {
+    background: linear-gradient(120deg, var(--blue), var(--green));
+    color: white;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: var(--gold);
+  }
+
+  nav a.active {
+    color: var(--gold);
+    text-decoration: underline;
+  }
+
+  .content {
+    max-width: var(--maxw);
+    margin: 40px auto;
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    animation: fadeInUp 0.8s ease forwards;
+  }
+
+  .content h2 {
+    color: var(--blue);
+    font-family: "Poppins", sans-serif;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .content p {
+    line-height: 1.7;
+    font-size: 16px;
+    margin: 12px 0;
+    text-align: justify;
+  }
+
+  .highlight {
+    background: var(--muted);
+    border-left: 4px solid var(--green);
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin: 20px 0;
+  }
+
+  .content img {
+    display: block;
+    max-width: 220px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .btn {
+    background: var(--green);
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: var(--blue);
+    transform: translateY(-2px);
+  }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  footer {
+    background: var(--blue);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>SMP Athalia</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="visi-misi.html" class="active">Visi & Misi</a>
+      <a href="sejarah.html">Sejarah</a>
+      <a href="ekstrakurikuler.html">Smart Club</a>
+      <a href="prestasi.html">Prestasi</a>
+      <a href="guru.html">Guru</a>
+      <a href="kontak.html">Info & Kontak</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Visi & Misi SMP Athalia</h2>
+
+    <p><strong>ATHALIA</strong> percaya bahwa setiap anak diciptakan dengan tujuan tertentu, dan sekolah perlu bekerjasama dengan orang tua untuk menemukan tujuan hidup tiap anak.</p>
+
+    <p>Para pendiri ATHALIA memiliki visi untuk membawa tiap anak bertemu PenciptaNya, mengenal siapa dirinya sendiri, dan menjalani proses pertumbuhan untuk akhirnya menjadi seorang dewasa yang sesuai dengan rencana Allah, Sang Pencipta.</p>
+
+    <div class="highlight">
+      <p><strong>Visi ATHALIA:</strong> Siswa yang menjadi murid Tuhan.</p>
+      <p><strong>Misi ATHALIA:</strong> Mendidik siswa menghidupi rencana Tuhan baginya.</p>
+      <p><strong>Motto ATHALIA:</strong> <em>RIGHT FROM THE START — Benar Sejak Awal.</em></p>
+    </div>
+
+    <p>Berbekal visi yang sangat jelas, Sekolah Athalia di bawah Yayasan Pendidikan Kristen Athalia Kilang berkomitmen untuk membangun manusia muda Indonesia dengan benar sejak awal.</p>
+
+    <h2>Logo ATHALIA</h2>
+    <img src="data:image/jpeg;base64,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" alt="Logo SMP Athalia">
+
+    <p><strong>Athalia</strong> berarti “Allah ditinggikan”.</p>
+
+    <p>Segitiga melambangkan relasi antara diri sendiri dengan Tuhan dan sesama.  
+    Segitiga dengan ujung mengarah ke atas melambangkan fokus Sekolah Athalia, yaitu meninggikan Allah.</p>
+
+    <p>Daun palem melambangkan kehidupan dan pertumbuhan. Segitiga yang melambangkan kerjasama antara pihak sekolah dan orang tua mengarahkan serta melindungi pertumbuhan siswa-siswi.</p>
+
+    <p>Pertumbuhan yang tidak dibatasi ini dilambangkan dengan daun yang bertumbuh melewati segitiga.</p>
+
+    <p>Dasar segitiga bagaikan tangan yang bersalaman, melambangkan kerjasama orang tua dan guru.</p>
+
+    <p>Warna <strong>biru</strong> melambangkan kestabilan dan keabadian,  
+    sedangkan warna <strong>hijau</strong> melambangkan kehidupan dan pertumbuhan.</p>
+
+    <!-- Tombol navigasi seperti di halaman Sejarah -->
+    <div class="button-container">
+      <a href="index.html" class="btn">← Sebelumnya</a>
+      <a href="sejarah.html" class="btn">Selanjutnya →</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 SMP Athalia — “Right From The Start”
+  </footer>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SMP Athalia</title>
+  <style>
+    :root {
+      --blue: #003366;
+      --green: #2e8b57;
+      --gold: #ffd700;
+      --light: #f4f7fb;
+      --radius: 12px;
+    }
+    body {
+      margin: 0;
+      font-family: "Lato", sans-serif;
+      background: var(--light);
+      color: #222;
+    }
+
+    /* ===== Navbar ===== */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 51, 102, 0.8);
+      backdrop-filter: blur(8px);
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+      transition: background 0.3s ease;
+    }
+    nav.scrolled {
+      background: var(--blue);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 12px 20px;
+      gap: 26px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover,
+    nav a.active {
+      color: var(--gold);
+    }
+
+    /* ===== Hero Section ===== */
+    header.hero {
+      background: linear-gradient(120deg, var(--blue), var(--green));
+      color: white;
+      text-align: center;
+      padding: 120px 20px 100px;
+      border-radius: 0 0 var(--radius) var(--radius);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      margin-bottom: 40px;
+    }
+    header.hero h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 54px;
+      margin: 0;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+    header.hero h3 {
+      color: var(--gold);
+      font-weight: 600;
+      margin-top: 10px;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+    header.hero p {
+      max-width: 640px;
+      margin: 18px auto;
+      font-size: 18px;
+      line-height: 1.6;
+      opacity: 0.95;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--blue);
+      padding: 12px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background: white;
+      color: var(--green);
+    }
+
+    /* ===== Main Content ===== */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      padding: 40px;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+      margin-bottom: 60px;
+    }
+    h2 {
+      color: var(--blue);
+      margin-top: 0;
+    }
+    section {
+      margin-bottom: 36px;
+    }
+    .highlight {
+      background: linear-gradient(90deg, rgba(255,215,0,0.1), rgba(46,139,87,0.05));
+      border-left: 4px solid var(--gold);
+      padding: 12px 18px;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: var(--blue);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="index.html" class="active">Beranda</a></li>
+      <li><a href="visi-misi.html">Visi & Misi</a></li>
+      <li><a href="sejarah.html">Sejarah</a></li>
+      <li><a href="ekstrakurikuler.html">Smart Club</a></li>
+      <li><a href="prestasi.html">Prestasi</a></li>
+      <li><a href="guru.html">Guru</a></li>
+      <li><a href="kontak.html">Info & Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <header class="hero">
+    <h1>SMP Athalia</h1>
+    <h3>Right From The Start</h3>
+    <p>SMP Athalia membentuk karakter dan kecerdasan siswa melalui semangat peduli dan berbagi. Kami percaya bahwa setiap anak adalah anugerah yang harus dikembangkan dengan kasih dan keteladanan.</p>
+    <a href="visi-misi.html" class="btn">Pelajari Lebih Lanjut</a>
+  </header>
+
+  <!-- ===== Main Content ===== -->
+  <main>
+    <section>
+      <h2>Selamat Datang di SMP Athalia</h2>
+      <p class="highlight">SMP Athalia adalah sekolah yang berkomitmen menumbuhkan karakter unggul, iman yang kokoh, dan kemampuan akademis yang berprestasi. Dengan tema besar <strong>"Caring and Sharing"</strong>, kami mendidik siswa untuk peduli, berbagi, dan bertanggung jawab terhadap lingkungan dan sesama.</p>
+    </section>
+
+    <section>
+      <h2>Eksplor Halaman Lain</h2>
+      <ul>
+        <li><strong>Visi & Misi:</strong> Panduan utama arah pendidikan di SMP Athalia.</li>
+        <li><strong>Sejarah:</strong> Perjalanan panjang berdirinya sekolah ini.</li>
+        <li><strong>Smart Club:</strong> Beragam kegiatan ekstrakurikuler untuk mengembangkan potensi siswa.</li>
+        <li><strong>Prestasi:</strong> Deretan kemenangan dan kebanggaan siswa-siswi Athalia.</li>
+        <li><strong>Guru:</strong> Tenaga pendidik berdedikasi yang menuntun dengan hati.</li>
+        <li><strong>Info & Kontak:</strong> Hubungi kami untuk informasi pendaftaran dan kerja sama.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 SMP Athalia — “Right From The Start”
+  </footer>
+
+  <script>
+    // Navbar color change saat scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>

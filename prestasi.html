@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prestasi — SMP Athalia</title>
+
+  <style>
+  :root {
+    --blue: #003366;
+    --green: #2e8b57;
+    --gold: #ffd700;
+    --muted: #f7f9fc;
+    --radius: 10px;
+    --maxw: 960px;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background: var(--muted);
+    color: #222;
+  }
+
+  header {
+    background: linear-gradient(120deg, var(--blue), var(--green));
+    color: white;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: var(--gold);
+  }
+
+  nav a.active {
+    color: var(--gold);
+    text-decoration: underline;
+  }
+
+  .content {
+    max-width: var(--maxw);
+    margin: 40px auto;
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    animation: fadeInUp 0.8s ease forwards;
+  }
+
+  .content h2 {
+    color: var(--blue);
+    font-family: "Poppins", sans-serif;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .content p {
+    line-height: 1.7;
+    font-size: 16px;
+    margin: 12px 0;
+    text-align: justify;
+  }
+
+  .meta {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    line-height: 1.7;
+    font-size: 16px;
+    margin: 12px 0 12px 25px;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+  }
+
+  .highlight-section {
+    background: var(--muted);
+    border-left: 4px solid var(--green);
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .btn {
+    background: var(--green);
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: var(--blue);
+    transform: translateY(-2px);
+  }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  footer {
+    background: var(--blue);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>SMP Athalia</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="visi-misi.html">Visi & Misi</a>
+      <a href="sejarah.html">Sejarah</a>
+      <a href="ekstrakurikuler.html">Smart Club</a>
+      <a href="prestasi.html" class="active">Prestasi</a>
+      <a href="guru.html">Guru</a>
+      <a href="kontak.html">Info & Kontak</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Prestasi Siswa-Siswi SMP Athalia</h2>
+    <p>Beberapa waktu yang lalu, siswa-siswi Athalia telah berhasil mengukir prestasi dalam kompetisi antar sekolah. Berikut prestasi-prestasi tersebut:</p>
+
+    <ul>
+      <li>Juara 1 Basket Puteri dalam pertandingan <strong>Athalia Cup</strong> yang diselenggarakan pada tanggal <strong>9–16 Oktober 2010</strong>.</li>
+      <li>Juara 2 Basket Putera dalam pertandingan <strong>Athalia Cup</strong> yang diselenggarakan pada tanggal <strong>9–16 Oktober 2010</strong>.</li>
+      <li>Dalam <strong>St John’s Science & Math Competition</strong> yang diselenggarakan pada tanggal <strong>26–27 November 2010</strong>:</li>
+    </ul>
+
+    <div class="highlight-section">
+      <p><strong>A. Individual:</strong></p>
+      <ul>
+        <li>Juara 2 Fisika, diwakili oleh <strong>Wilson N.</strong></li>
+        <li>Juara 3 Fisika, diwakili oleh <strong>Kevin M.</strong></li>
+        <li>Juara 2 Matematika, diwakili oleh <strong>C. Aradyta</strong>.</li>
+      </ul>
+
+      <p><strong>B. Grup:</strong></p>
+      <ul>
+        <li>Juara 2 dan Juara 3 Fisika.</li>
+        <li>Juara 3 Matematika.</li>
+      </ul>
+    </div>
+
+    <ul>
+      <li>Juara 1 <strong>Story Telling Competition</strong> tingkat Kota Tangerang Selatan, diwakili oleh <strong>Jacynda Darmawan</strong>.</li>
+    </ul>
+
+    <div class="button-container">
+      <a href="ekstrakurikuler.html" class="btn">← Sebelumnya</a>
+      <a href="guru.html" class="btn">Selanjutnya →</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 SMP Athalia — “Right From The Start”
+  </footer>
+</body>
+</html>

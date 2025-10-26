@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak — SMP Athalia</title>
+  <style>
+    :root {
+      --blue: #003366;
+      --green: #2e8b57;
+      --gold: #ffd700;
+      --muted: #f7f9fc;
+      --radius: 10px;
+      --maxw: 960px;
+    }
+
+    body {
+      font-family: "Lato", sans-serif;
+      margin: 0;
+      background: var(--muted);
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(120deg, var(--blue), var(--green));
+      color: white;
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: 0.5px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 16px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
+    nav a.active {
+      color: var(--gold);
+      text-decoration: underline;
+    }
+
+    .content {
+      max-width: var(--maxw);
+      margin: 40px auto;
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      padding: 40px;
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    .content h2 {
+      color: var(--blue);
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .content p, li {
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h3 {
+      color: var(--green);
+      border-left: 5px solid var(--gold);
+      padding-left: 10px;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    .btn {
+      background: var(--green);
+      color: white;
+      padding: 10px 22px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: var(--blue);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background: var(--blue);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SMP Athalia</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="visi-misi.html">Visi & Misi</a>
+      <a href="sejarah.html">Sejarah</a>
+      <a href="ekstrakurikuler.html">Smart Club</a>
+      <a href="prestasi.html">Prestasi</a>
+      <a href="guru.html">Guru</a>
+      <a href="kontak.html" class="active">Info & Kontak</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Informasi & Kontak SMP Athalia</h2>
+
+    <div class="section">
+      <h3>Alamat</h3>
+      <p>Regensi Melati Mas Blok B14, Kelurahan Pondok Jagung, Kecamatan Serpong Utara, Kota Tangerang Selatan, Banten 15326.</p>
+    </div>
+
+    <div class="section">
+      <h3>Hari dan Jam Sekolah</h3>
+      <ul>
+        <li><strong>Senin:</strong> 07.00 – 13.30</li>
+        <li><strong>Selasa–Jumat:</strong> 07.00 – 15.00</li>
+        <li><em>Catatan:</em> Siswa dikategorikan terlambat jika tiba di gerbang/drop point/check point sekolah pada pukul 06.56 atau setelah bunyi bel selesai.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Kontak</h3>
+      <ul>
+        <li><strong>Telepon:</strong> 021 – 5377891</li>
+        <li><strong>WhatsApp:</strong> 087771414812 (Chat Only)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Email</h3>
+      <ul>
+        <li><strong>Pendaftaran siswa baru:</strong> <a href="mailto:pro@sekolahathalia.sch.id">pro@sekolahathalia.sch.id</a></li>
+        <li><strong>Lamaran pekerjaan / umum:</strong> <a href="mailto:sdm@sekolahathalia.sch.id">sdm@sekolahathalia.sch.id</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Media Sosial</h3>
+      <ul>
+        <li><strong>Website:</strong> <a href="https://sekolahathalia.sch.id/" target="_blank">sekolahathalia.sch.id</a></li>
+        <li><strong>Instagram:</strong> 
+          <a href="https://instagram.com/osismpathalia" target="_blank">@osismpathalia</a>, 
+          <a href="https://instagram.com/komunitassekolahathalia" target="_blank">@komunitassekolahathalia</a>, 
+          <a href="https://instagram.com/perpustakaan.athalia" target="_blank">@perpustakaan.athalia</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="button-container">
+      <a href="guru.html" class="btn">← Kembali</a>
+      <a href="index.html" class="btn">Ke Beranda</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 SMP Athalia — “Right From The Start”
+  </footer>
+</body>
+</html>
